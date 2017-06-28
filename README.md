@@ -62,6 +62,20 @@ Spring Boot CLI 利用了Spring Boot自动配置和起步依赖的便利之处�
 最后，你还了解了如何利用Spring Boot CLI来执行测试和构建可以部署的产物，这些通常都是由构建系统来负责的。
 Spring Boot 和Groovy结合得很好，两者的简介性相辅相成。在第六章，我们还会看到Spring Boot和Groovy是如何协同的--Spring Boot是Grails 最新版本的核心。
 
+第六章 小节
+----
+
+Grails 和Spring Boot都旨在让开发者的生活更简单，大大简化基于Spring 的开发模型，因此两者看起来是相互竞争的框架。但在本章中，我们看到了两者如何结合在一起，综合优势。
+
+我们了解到了如何向典型的Spring boot 应用程序中添加GROM和GSP视图，这两个都是知名的Grails特性。GROM是Spring Boot 里一个很受欢迎的特性，能让你直接针对领域模型执行持久化操作，消除了对模型仓库的需求。
+
+随后我们认识了Grail3 ,及Grails构建与 Spring Boot 之上的最新版本。在开发Grials 3应用程序时，你也在使用Spring Boot，可以使用Spring Boot的全部特性，包括自动配置。
+
+在本章和第五章里，我们看到了如何结合Groovy和Spring Boot ，消除了Java 语言无法避免的那些代码噪声。
+
+在第七章，我们要将关注点从开发Spring Boot应用程序转移到Spring Boot Actuator上，看看它如何帮助我们了解应用程序的运行情况。
+
+
 #123  
 ##1234
 ###12345
