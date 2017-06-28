@@ -1,6 +1,7 @@
 package com.cycloneboy.repository;
 
 import com.cycloneboy.domain.Book;
+import com.cycloneboy.domain.Reader;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
  */
 public interface ReadingListRepository extends JpaRepository<Book,Long>{
 
-    List<Book> findByReader(String reader);
+    List<Book> findByReader(Reader reader);
+
 
 }

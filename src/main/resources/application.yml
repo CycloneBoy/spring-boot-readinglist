@@ -1,0 +1,22 @@
+logging:
+  level:
+    root:INFO
+spring:
+  profiles:
+    active: development
+---
+spring:
+  profiles: development
+logging:
+  level:
+   root: info
+
+---
+
+spring:
+  profiles: production
+logging:
+  path: D:\java\idea\logs
+  file: BookWrom.log
+  level:
+   root:WARN
