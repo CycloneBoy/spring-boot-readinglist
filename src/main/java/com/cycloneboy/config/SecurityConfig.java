@@ -16,8 +16,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
  * Created by CycloneBoy on 2017/6/28.
  */
 @Profile("production")
-@Configuration
-@EnableWebSecurity
+//@Configuration
+//@EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter{
 
     @Autowired

@@ -27,7 +27,7 @@ public class ReadingListController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String readersBooks(
-            Reader reader,
+            String reader,
             Model model){
 
         List<Book> readingList = readingListRepository.findByReader(reader);
@@ -41,7 +41,7 @@ public class ReadingListController {
 
     @RequestMapping(method = RequestMethod.POST)
     public String addReadingList(
-            Reader reader,Book book){
+            String reader,Book book){
         book.setReader(reader);
         readingListRepository.save(book);
         return "redirect:/";
