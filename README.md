@@ -6,6 +6,13 @@ Spring Boot 实战
 第一章小节
 ---
 
+Spring boot为 Spring 应用程序的开发提供了一种激动人心的新方式，框架本身带来的阻力很小。自动配置消除了传统Spring应用程序里的很多样板配置；Spring 
+Boot起步依赖让你能够通过库所提供的功能而非名称与版本号来指定构建依赖；Spring Boot CLI将Spring 
+Boot的无阻碍开发模式提升到了一个崭新的高度，在命令行里就能简单快速的用Groovy进行开发：Actuator让你能深入运行中的应用程序，了解Spring Boot做了什么，是怎么做的。
+
+本章大致概括了Spring Boot的功能。你大概已经跃跃欲试了，想用Spring Boot来写一个真实的应用程序了吧。这正是我们在下一章里要做的事情。有了Spring Boot提供的诸多功能，最困难的不过是把书翻到第二章。
+
+
 第二章小节
 ---
    通过Spring Boot 的起步依赖和自动配置，你可以更加快速、便捷地开发Spring应用程序。起步依赖帮助你专注于应用程序需要的功能类型，而非提供该功能的具体库和版本。
@@ -44,6 +51,16 @@ Sprig Framework以 Junit类运行器的方式提供了集成测试支持，Junit
 此时我们已经构建了一个相当完整的应用程序（虽然有点简单),它利用Spring boot 的起步依赖和自动配置来处理低级工作，让我们专心开发应用程序。我们也可以看到如何使用Spring boot 
 的支持来测试应用程序。在后续几章里，我们会看到一些不同的东西，了解让Spring Boot应用程序开发更加简单的Groovy。在第五章，我们会先了解Grails框架的一些特性，看看它们在spring boot 中的用途。
 
+第五章 小节
+---
+
+Spring Boot CLI 利用了Spring Boot自动配置和起步依赖的便利之处，并将之发扬光大。借由Goovy语言的优雅，CLI能让我们在最少的代码噪声下开发Spring应用程序。
+
+ 本章中我们彻底重写了第二章的阅读列表应用程序，只是这次我们用Groovy把它写成了Spring Boot CLI应用程序。通过自动添加很多常用包和类的import语句,CLI让Groovy更优雅。它还可以自动接卸很多依赖库。
+对于CLI无法自动解析的库，基于CLI的应用程序可以利用Grape的@Grab注解，不用构建说明也可以显示地声明依赖。Spring Boot的CLI扩展了@Grab注解，针对很多常见的库依赖，只需要声明Module ID就可以了。
+
+最后，你还了解了如何利用Spring Boot CLI来执行测试和构建可以部署的产物，这些通常都是由构建系统来负责的。
+Spring Boot 和Groovy结合得很好，两者的简介性相辅相成。在第六章，我们还会看到Spring Boot和Groovy是如何协同的--Spring Boot是Grails 最新版本的核心。
 
 #123  
 ##1234
@@ -51,5 +68,5 @@ Sprig Framework以 Junit类运行器的方式提供了集成测试支持，Junit
 ####1234
 #####2333333
 ######345
-[CycloneBoy](http:www.cycloneboy.com)
+CopyRight：[CycloneBoy](http:www.cycloneboy.com "旋风小子")
 ![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")  
